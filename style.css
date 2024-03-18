@@ -225,6 +225,10 @@ header a:hover {
 	align-items: center;
 }
 
+.claim img {
+	border-radius: 5px;
+}
+
 /*footer*/
 
 footer{
