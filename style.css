@@ -31,5 +31,216 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif; 
+	font-size: 18px;
+	line-height: 1.5;
+	color: #242424;	
 }
+
+header, section, footer {
+	width: 100%
+}
+
+.content {
+	max-width: 1100px;
+	min-width: 1049px;
+	margin: 0 auto;
+	padding: 80px 15px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	border-radius: 20px;
+	padding: 15px 40px;
+	
+	
+}
+
+a:active {
+	color:white;
+	background-color: #d2567d;
+}
+
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {	
+	font-size: 52px;	
+}
+
+h2 {
+	font-size: 36px;	
+	color: #3e606b	;
+}
+
+h3 {
+	font-size: 18px;
+	color: #3e606b;
+	text-align: center;
+}
+
+p {
+	padding: 0px;
+}
+
+
+/* stylovani vztahujici se k hlavicce*/
+header .content {
+	display: flex;	
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 15px;	
+}
+
+.logo {
+	width: 170px;
+	
+	
+}
+
+header  ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+header a {
+	padding: 10px 15px;
+}
+
+
+
+header a:hover {
+	background-color: #f195b2 ;
+	color: white;
+
+}
+
+/*sekce Hero*/
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	
+}
+
+.textHero {
+	width: 60%;
+}
+
+.hero p {
+	font-style: italic;
+	font-size: 24px;
+	
+}
+
+/*sekce introduction*/
+
+.introduction .content {
+	display: flex;
+	align-items: center;
+	justify-content:space-between ;
+	gap:30px;
+	
+}
+
+.introduction img {
+	flex:0 0 600px;
+	border-radius: 5px;
+}
+
+.textIntroduction {
+	flex-grow: 1;
+	
+}
+
+.introduction a {
+	display: inline-block;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+
+.products {
+	background-color: #f195b2;
+	color: white;
+	
+	
+	
+
+}
+.introduction a:hover {
+	background-color: #d2567d	;
+	
+}
+
+/*sekce dailyOffer*/
+.dailyOffer {
+	background-color: #f0f0f0	;
+}
+
+.productContainer {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.product {
+	flex: 1;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.product img {
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.product p {
+	
+	margin: 0;
+	text-align: justify;
+	font-size: 14px;
+	padding-top: 20px;
+	
+}
+
+.productInfo {
+	padding: 20px;
+}
+
+/*sekce claim*/
+
+.claim .content {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+
+/*footer*/
+
+footer{
+	background-color: #303339;
+	color:white;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	
+
+}
+
+footer p {
+	padding: 30px 0;
+	margin: 0;
+	
+}
+
 
